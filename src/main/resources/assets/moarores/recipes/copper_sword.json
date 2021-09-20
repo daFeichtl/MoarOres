@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "moarores:copper_sword",
+  "pattern": [
+    " D ",
+    " D ",
+    " A "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:copper_ingot"
+    },
+    "A": {
+      "item": "minecraft:stick"
+    }
+  },
+
+  "result": {
+    "item": "moarores:copper_sword",
+    "data":0
+  }
+}

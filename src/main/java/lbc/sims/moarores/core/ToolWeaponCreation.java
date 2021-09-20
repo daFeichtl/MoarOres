@@ -7,11 +7,12 @@ import net.minecraft.item.crafting.Ingredient;
 @MethodsReturnNonnullByDefault
 public enum ToolWeaponCreation implements IItemTier {
 
-    COPPER_SWORD(0,161,4,5.5f,3,Ingredient.of(ItemsInit.copper_ingot.get())),
-    COPPER_PICKAXE(0,161,4,5.5f,3,Ingredient.of(ItemsInit.copper_ingot.get())),
-    COPPER_AXE(0,161,4,5.5f,3,Ingredient.of(ItemsInit.copper_ingot.get())),
-    COPPER_SHOVEL(0,161,4,5.5f,3,Ingredient.of(ItemsInit.copper_ingot.get())),
-    COPPER_HOE(0,161,4,5.5f,3,Ingredient.of(ItemsInit.copper_ingot.get())),
+    COPPER_SWORD(1,161,3.5f,4.5f,3,Ingredient.of(ItemsInit.copper_ingot.get())),
+    COPPER_PICKAXE(1,161,3.5f,3.5f,3,Ingredient.of(ItemsInit.copper_ingot.get())),
+    COPPER_AXE(1,161,3.5f,7.5f,3,Ingredient.of(ItemsInit.copper_ingot.get())),
+    COPPER_SHOVEL(1,161,3.5f,2.5f,3,Ingredient.of(ItemsInit.copper_ingot.get())),
+    COPPER_HOE(1,161,3.5f,1.0f,3,Ingredient.of(ItemsInit.copper_ingot.get())),
+
 
     ;
 

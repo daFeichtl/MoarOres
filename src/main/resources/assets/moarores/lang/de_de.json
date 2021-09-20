@@ -1,4 +1,8 @@
 {
   "item.moarores.copper_ingot" : "Kupferbarren",
-  "item.moarores.copper_sword" : "Kupferschwert"
+  "item.moarores.copper_sword" : "Kupferschwert",
+  "item.moarores.copper_pickaxe" : "Kupferspitzhacke",
+  "item.moarores.copper_axe" : "Kupferaxt",
+  "item.moarores.copper_shovel" : "Kupferschaufel",
+  "item.moarores.copper_hoe" : "Kupferhacke"
 }

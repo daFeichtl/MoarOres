@@ -1,4 +1,8 @@
 {
   "item.moarores.copper_ingot" : "Copper Ingot",
-  "item.moarores.copper_sword" : "Copper Sword"
+  "item.moarores.copper_sword" : "Copper Sword",
+  "item.moarores.copper_pickaxe" : "Copper Pickaxe",
+  "item.moarores.copper_axe" : "Copper Axe",
+  "item.moarores.copper_shovel" : "Copper Shovel",
+  "item.moarores.copper_hoe" : "Copper Hoe"
 }
