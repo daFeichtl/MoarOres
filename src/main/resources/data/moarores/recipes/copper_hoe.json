@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "moarores:copper_hoe",
+  "pattern": [
+    "DD",
+    " A",
+    " A"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:copper_ingot"
+    },
+    "A": {
+      "item": "minecraft:stick"
+    }
+  },
+
+  "result": {
+    "item": "moarores:copper_pickaxe",
+    "data":0
+  }
+}

@@ -1,17 +1,18 @@
 package lbc.sims.moarores.core;
 
-import mcp.MethodsReturnNonnullByDefault;
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.MethodsReturnNonnullByDefault;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.crafting.Ingredient;
 
 @MethodsReturnNonnullByDefault
-public enum ToolWeaponCreation implements IItemTier {
+public enum ToolWeaponCreation implements Tier {
 
-    COPPER_SWORD(1,161,3.5f,4.5f,3,Ingredient.of(ItemsInit.copper_ingot.get())),
-    COPPER_PICKAXE(1,161,3.5f,3.5f,3,Ingredient.of(ItemsInit.copper_ingot.get())),
-    COPPER_AXE(1,161,3.5f,7.5f,3,Ingredient.of(ItemsInit.copper_ingot.get())),
-    COPPER_SHOVEL(1,161,3.5f,2.5f,3,Ingredient.of(ItemsInit.copper_ingot.get())),
-    COPPER_HOE(1,161,3.5f,1.0f,3,Ingredient.of(ItemsInit.copper_ingot.get())),
+    COPPER_SWORD(1,161,1f,4.5f,3,Ingredient.of(Items.COPPER_INGOT)),
+    COPPER_PICKAXE(1,161,1.2f,3.5f,3,Ingredient.of(Items.COPPER_INGOT)),
+    COPPER_AXE(1,161,0.8f,7.5f,3,Ingredient.of(Items.COPPER_INGOT)),
+    COPPER_SHOVEL(1,161,1.2f,2.5f,3,Ingredient.of(Items.COPPER_INGOT)),
+    COPPER_HOE(1,161,3f,1.0f,3,Ingredient.of(Items.COPPER_INGOT)),
 
 
     ;
@@ -61,7 +62,8 @@ public enum ToolWeaponCreation implements IItemTier {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return this.repairmaterial;
+        return repairmaterial;
     }
+
 
 }
